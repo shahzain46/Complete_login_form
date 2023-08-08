@@ -41,6 +41,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10vh 0;
+    color: white;
 }
 .cardss .card-1{
     width: 30%;
@@ -53,4 +54,38 @@
     color: white;
     border-radius: 10px;
 
+}
+
+
+
+section{
+    background: blue;
+}
+.form1{
+    width: 90%;
+    margin: 0 auto;
+   text-align: center;
+   padding: 10vh 0;
+    
+    
+}
+.form1 input{
+    width: 40%;
+    margin: 2vh 0;
+    padding: 10px 20px;
+    outline: none;
+}
+.form1 .btn{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 86%;
+    margin: 0 auto;
+}
+
+.form1 .btn button{
+    padding: 5px 8px;
+    color: white;
+    background: blue;
+    border: 1px solid white;
 }
