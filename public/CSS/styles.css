@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    background: blue;
+    
+}
+.navbar .navbar-brand{
+    color: white !important;
+}
+
+.navbar .navbar-toggler-icon{
+    color: white !important;
+   
+}
+.navbar .navbar-nav a{
+    color: white !important;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.head{
+    margin: 0 auto;
+    padding: 10vh 0;
+    color: white;
+    text-align: center;
+}
+.head button{
+    padding: 6px 10px;
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid white;
+
+}
+.cardss{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh 0;
+}
+.cardss .card-1{
+    width: 30%;
+    
+}
+.cardss .card-1 button{
+    padding: 6px 10px;
+    border: none !important;
+    background: blue;
+    color: white;
+    border-radius: 10px;
+
+}
