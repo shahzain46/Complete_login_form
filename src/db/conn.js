@@ -10,7 +10,7 @@ const mongoose = require('mongoose');
 //     console.log('connection fail');
 // })
 
-mongoose.connect('mongodb+srv://shahzain:12shah34zain@mydatabase.lboguaf.mongodb.net/')
+mongoose.connect('mongodb+srv://username:yourpassword@mydatabase.lboguaf.mongodb.net/')
 
 mongoose.connection.off('error',err=>{
     console.log("connection fail")
